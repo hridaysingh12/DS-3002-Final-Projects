@@ -1,11 +1,12 @@
 # DS-3002-Final-Projects
-This repo contains my code and analysis for by discord trivia bot and my data ingestion projects
+This repo contains my code and analysis for my discord trivia bot and my data ingestion projects
 
 #######################################################################################################################################################################
 
 Data Ingestion Project
 
 replit link: https://replit.com/@HridaySingh/TimeDriftV2#main.py
+
 API used: https://4feaquhyai.execute-api.us-east-1.amazonaws.com/api/pi
 
 Analysis:
@@ -20,6 +21,7 @@ The factor column appears to be equal to the minute of the time column cubed (ex
 Discord Trivia Bot
 
 replit link: https://replit.com/@HridaySingh/TimeDriftV2#main.py
+
 API used: https://jservice.io/api/random (for trivia questions) and Discord API (via the discord python package)
 
 Analysis:
