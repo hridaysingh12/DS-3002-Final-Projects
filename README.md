@@ -24,6 +24,8 @@ replit link: https://replit.com/@HridaySingh/TimeDriftV2#main.py
 
 API used: https://jservice.io/api/random (for trivia questions) and Discord API (via the discord python package)
 
+Server invite link: https://discord.gg/vBwQUwQCw2
+
 Analysis:
 
 My discord bot plays a trivia game with the user. You can provide the phrase containing the word  ‘question’, and a question from a trivia API (consisting of a database of old jeopardy questions) will provide a random question. The bot will then start a 10-second timer and count down. The user can ask for a ‘hint’ or ‘clue’ and the bot will provide information on the category of the question. Once the timer runs out, the user can ask for the ‘answer’ and the bot will provide it. If you want the answer to be displayed right after the timer, simply message “$trivia” instead of ‘question’ and the answer will be provided right after the timer ends (good for single players). If a clue or answer is asked for before a question is asked (at the beginning of the game), the bot will respond that no question has been asked yet. If it is later in the game, the previous answer and clue will be provided for reference (in case the user wants to double-check the clue or answer). The three things the bot responds to are: phrases containing the word question (or $trivia), phrases containing the word answer, and phrases containing the word clue (or hint). Additionally, by asking for help (or $help) the bot will provide a message with words used to play the game. I have additionally connected my bot to an uptime robot and added functionality in keep_alive.py so this game will run even when the script is closed on my end.
